@@ -1,0 +1,207 @@
+/* ==========================================================================
+   Território & Poder: design tokens
+   Direção: atlas editorial impresso levado à web.
+   Claro: papel de atlas (creme + laranja queimado). Escuro: grafite + azul.
+   Os pares de texto/fundo são verificados em tests/unit/contrast.test.ts
+   (texto ≥ 4,5:1; elementos gráficos ≥ 3:1).
+   ========================================================================== */
+
+/* ---------- Tema claro (padrão) ---------- */
+:root,
+:root[data-theme='light'] {
+  color-scheme: light;
+
+  /* Superfícies */
+  --bg: #f6eedd;
+  --surface: #fbf6ea;
+  --elevated: #fffdf7;
+  --border: #dccdb2;
+  --border-strong: #b9a784;
+
+  /* Texto */
+  --ink: #2b2118;
+  --ink-2: #6b5b4b;
+  --ink-3: #766654;
+
+  /* Destaque: preenchimento gráfico, texto/links, botões */
+  --accent: #c4571a;
+  --accent-text: #a8470f;
+  --accent-btn: #a8470f;
+  --on-accent: #fffdf7;
+  --accent-soft: #f2dcc0;
+
+  /* Estados */
+  --focus: #1f5f9a;
+  --danger: #a33a2b;
+  --ok: #4e6a2a;
+
+  /* Categórica (dados): 8 matizes distinguíveis, pensados para daltonismo */
+  --cat-1: #2f6f73; /* azul-petróleo */
+  --cat-2: #c4571a; /* laranja queimado */
+  --cat-3: #3e5c8a; /* azul-ardósia */
+  --cat-4: #a67614; /* ocre */
+  --cat-5: #7a4b6b; /* ameixa */
+  --cat-6: #6b7a3a; /* oliva */
+  --cat-7: #a33a2b; /* tijolo */
+  --cat-8: #7d6d58; /* areia escura */
+
+  /* Sequencial (laranja, claro → escuro): intensidade crescente */
+  --seq-1: #f7e3c0;
+  --seq-2: #f0c58e;
+  --seq-3: #e5a15f;
+  --seq-4: #d57c34;
+  --seq-5: #b85a1b;
+  --seq-6: #8a3f10;
+  --seq-7: #5c2a0b;
+
+  /* Divergente (azul-petróleo ⇄ laranja; neutro no centro) */
+  --div-1: #1f5457;
+  --div-2: #2f6f73;
+  --div-3: #86b3ad;
+  --div-4: #ece3cc;
+  --div-5: #e6ad82;
+  --div-6: #c4571a;
+  --div-7: #8e2f1e;
+
+  /* Mapa */
+  --map-ocean: #cfdcd7;
+  --map-ocean-deep: #bccfca;
+  --map-graticule: #a9bfba;
+  --map-land: #efe3c8; /* países da região, sem dado */
+  --map-context: #ddd3bd; /* EUA e vizinhos: tom neutro de contexto */
+  --map-border: #8c7b66;
+  --map-border-region: #6b5b4b;
+  --map-nonsovereign: #cdb98f; /* territórios não soberanos */
+  --map-label: #3a2d21;
+  --map-label-halo: #f6eedd;
+  --map-selected: #2b2118;
+  --map-nodata: #e4d9bf;
+  --map-shelf: #dbe6e2; /* faixa rasa junto à costa */
+  --map-sea-label: #4c6a66;
+  --map-river: #7fa3a6;
+  --map-lake: #cfdcd7;
+}
+
+/* ---------- Tema escuro ---------- */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --bg: #121416;
+  --surface: #1a1d21;
+  --elevated: #22262b;
+  --border: #2f353c;
+  --border-strong: #4a525c;
+
+  --ink: #eceff2;
+  --ink-2: #a3adb8;
+  --ink-3: #8c97a3;
+
+  --accent: #3f82c4;
+  --accent-text: #6aa7e0;
+  --accent-btn: #6aa7e0;
+  --on-accent: #121416;
+  --accent-soft: #1f3347;
+
+  --focus: #9cc6ec;
+  --danger: #e07a6a;
+  --ok: #7fc08a;
+
+  --cat-1: #4fb3a9; /* verde-água */
+  --cat-2: #e0ae5a; /* âmbar */
+  --cat-3: #6aa7e0; /* azul */
+  --cat-4: #e07a6a; /* coral */
+  --cat-5: #b592c9; /* lilás */
+  --cat-6: #a9b86b; /* oliva claro */
+  --cat-7: #f08f4a; /* laranja */
+  --cat-8: #a3adb8; /* cinza azulado */
+
+  /* Sequencial (azul): no escuro, mais intenso = mais claro */
+  --seq-1: #1f3347;
+  --seq-2: #2a4b6c;
+  --seq-3: #35688f;
+  --seq-4: #4585b2;
+  --seq-5: #6aa7e0;
+  --seq-6: #9cc6ec;
+  --seq-7: #cde3f6;
+
+  /* Divergente (azul ⇄ âmbar; centro apagado, extremos brilhantes) */
+  --div-1: #9cc6ec;
+  --div-2: #5e9fd8;
+  --div-3: #3a6f9e;
+  --div-4: #353b42;
+  --div-5: #9a7430;
+  --div-6: #d9a74f;
+  --div-7: #f2d08c;
+
+  --map-ocean: #0e1a24;
+  --map-ocean-deep: #0a141c;
+  --map-graticule: #1c2b38;
+  --map-land: #2a3038;
+  --map-context: #1b1f24;
+  --map-border: #4a525c;
+  --map-border-region: #7d8995;
+  --map-nonsovereign: #3a414a;
+  --map-label: #dfe5ea;
+  --map-label-halo: #0e1a24;
+  --map-selected: #eceff2;
+  --map-nodata: #242a31;
+  --map-shelf: #132635;
+  --map-sea-label: #6f93ad;
+  --map-river: #3f6a86;
+  --map-lake: #0e1a24;
+}
+
+/* ---------- Escalas independentes de tema ---------- */
+:root {
+  /* Tipografia */
+  --font-serif: 'Fraunces Variable', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  --font-sans: 'Inter Variable', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+
+  /* Escala modular (razão ≈ 1,25), fluida entre 360 px e 1280 px */
+  --step--1: clamp(0.8125rem, 0.8rem + 0.06vw, 0.875rem);
+  --step-0: clamp(1rem, 0.97rem + 0.15vw, 1.0625rem);
+  --step-1: clamp(1.2rem, 1.14rem + 0.3vw, 1.3rem);
+  --step-2: clamp(1.45rem, 1.3rem + 0.7vw, 1.75rem);
+  --step-3: clamp(1.8rem, 1.5rem + 1.4vw, 2.4rem);
+  --step-4: clamp(2.2rem, 1.7rem + 2.4vw, 3.3rem);
+  --step-5: clamp(2.7rem, 1.8rem + 4.2vw, 4.6rem);
+
+  --measure: 68ch; /* largura de leitura (60–75 caracteres) */
+
+  /* Espaçamento (ritmo de 4 px) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+  --space-9: 7rem;
+
+  /* Geometria: cantos quase retos (gravura/atlas), filetes finos */
+  --radius-1: 2px;
+  --radius-2: 4px;
+  --rule: 1px solid var(--border);
+  --rule-strong: 1px solid var(--border-strong);
+
+  /* Layout */
+  --page-max: 80rem;
+  --page-gutter: clamp(1rem, 4vw, 2.5rem);
+  --header-h: 4.25rem;
+
+  /* Movimento discreto (150–300 ms) */
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+  --dur-1: 150ms;
+  --dur-2: 220ms;
+  --dur-3: 300ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-1: 0.01ms;
+    --dur-2: 0.01ms;
+    --dur-3: 0.01ms;
+  }
+}

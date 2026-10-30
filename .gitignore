@@ -1,0 +1,7 @@
+node_modules/
+dist/
+coverage/
+*.log
+.env
+.env.*
+# public/data/, public/maps/, public/images/, package-lock.json e .github/ NUNCA devem ser ignorados.

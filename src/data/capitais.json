@@ -1,0 +1,240 @@
+[
+ {
+  "id": "TTO",
+  "nome": "Port-of-Spain",
+  "lon": -61.517031,
+  "lat": 10.651997,
+  "pop": 294934
+ },
+ {
+  "id": "DMA",
+  "nome": "Roseau",
+  "lon": -61.387013,
+  "lat": 15.301016,
+  "pop": 23336
+ },
+ {
+  "id": "BRB",
+  "nome": "Bridgetown",
+  "lon": -59.616527,
+  "lat": 13.102003,
+  "pop": 191152
+ },
+ {
+  "id": "VCT",
+  "nome": "Kingstown",
+  "lon": -61.212062,
+  "lat": 13.148279,
+  "pop": 49485
+ },
+ {
+  "id": "LCA",
+  "nome": "Castries",
+  "lon": -61.000008,
+  "lat": 14.001974,
+  "pop": 37963
+ },
+ {
+  "id": "KNA",
+  "nome": "Basseterre",
+  "lon": -62.717009,
+  "lat": 17.302031,
+  "pop": 21887
+ },
+ {
+  "id": "GRD",
+  "nome": "Saint George's",
+  "lon": -61.741643,
+  "lat": 12.052633,
+  "pop": 33734
+ },
+ {
+  "id": "ATG",
+  "nome": "Saint John's",
+  "lon": -61.850034,
+  "lat": 17.118037,
+  "pop": 35499
+ },
+ {
+  "id": "URY",
+  "nome": "Montevideo",
+  "lon": -56.172998,
+  "lat": -34.856096,
+  "pop": 1513000
+ },
+ {
+  "id": "HND",
+  "nome": "Tegucigalpa",
+  "lon": -87.219475,
+  "lat": 14.103991,
+  "pop": 946000
+ },
+ {
+  "id": "GUY",
+  "nome": "Georgetown",
+  "lon": -58.167029,
+  "lat": 6.801974,
+  "pop": 264350
+ },
+ {
+  "id": "HTI",
+  "nome": "Port-au-Prince",
+  "lon": -72.33798,
+  "lat": 18.542971,
+  "pop": 1998000
+ },
+ {
+  "id": "SUR",
+  "nome": "Paramaribo",
+  "lon": -55.167031,
+  "lat": 5.83503,
+  "pop": 254169
+ },
+ {
+  "id": "PRY",
+  "nome": "Asuncion",
+  "lon": -57.643451,
+  "lat": -25.294457,
+  "pop": 1870000
+ },
+ {
+  "id": "NIC",
+  "nome": "Managua",
+  "lon": -86.270438,
+  "lat": 12.154962,
+  "pop": 920000
+ },
+ {
+  "id": "PAN",
+  "nome": "Panama City",
+  "lon": -79.534983,
+  "lat": 8.969963,
+  "pop": 1281000
+ },
+ {
+  "id": "ECU",
+  "nome": "Quito",
+  "lon": -78.501997,
+  "lat": -0.213042,
+  "pop": 1701000
+ },
+ {
+  "id": "CRI",
+  "nome": "San Jose",
+  "lon": -84.085997,
+  "lat": 9.936958,
+  "pop": 1284000
+ },
+ {
+  "id": "SLV",
+  "nome": "San Salvador",
+  "lon": -89.204987,
+  "lat": 13.711948,
+  "pop": 1433000
+ },
+ {
+  "id": "JAM",
+  "nome": "Kingston",
+  "lon": -76.767434,
+  "lat": 17.977077,
+  "pop": 937700
+ },
+ {
+  "id": "GTM",
+  "nome": "Guatemala",
+  "lon": -90.528911,
+  "lat": 14.623081,
+  "pop": 1024000
+ },
+ {
+  "id": "BOL",
+  "nome": "Sucre",
+  "lon": -65.259516,
+  "lat": -19.040971,
+  "pop": 224838
+ },
+ {
+  "id": "BLZ",
+  "nome": "Belmopan",
+  "lon": -88.767073,
+  "lat": 17.252034,
+  "pop": 15220
+ },
+ {
+  "id": "BOL",
+  "nome": "La Paz",
+  "lon": -68.151931,
+  "lat": -16.496028,
+  "pop": 1590000
+ },
+ {
+  "id": "BHS",
+  "nome": "Nassau",
+  "lon": -77.350044,
+  "lat": 25.08339,
+  "pop": 227940
+ },
+ {
+  "id": "CUB",
+  "nome": "Havana",
+  "lon": -82.366128,
+  "lat": 23.133905,
+  "pop": 2174000
+ },
+ {
+  "id": "DOM",
+  "nome": "Santo Domingo",
+  "lon": -69.902031,
+  "lat": 18.472019,
+  "pop": 2154000
+ },
+ {
+  "id": "BRA",
+  "nome": "Brasilia",
+  "lon": -47.917998,
+  "lat": -15.781394,
+  "pop": 3716996
+ },
+ {
+  "id": "VEN",
+  "nome": "Caracas",
+  "lon": -66.918983,
+  "lat": 10.502944,
+  "pop": 2985000
+ },
+ {
+  "id": "PER",
+  "nome": "Lima",
+  "lon": -77.052008,
+  "lat": -12.046067,
+  "pop": 8012000
+ },
+ {
+  "id": "ARG",
+  "nome": "Buenos Aires",
+  "lon": -58.399477,
+  "lat": -34.600556,
+  "pop": 12795000
+ },
+ {
+  "id": "MEX",
+  "nome": "Mexico City",
+  "lon": -99.132934,
+  "lat": 19.444388,
+  "pop": 19028000
+ },
+ {
+  "id": "COL",
+  "nome": "Bogota",
+  "lon": -74.08529,
+  "lat": 4.598369,
+  "pop": 7772000
+ },
+ {
+  "id": "CHL",
+  "nome": "Santiago",
+  "lon": -70.668987,
+  "lat": -33.448068,
+  "pop": 5720000
+ }
+]
