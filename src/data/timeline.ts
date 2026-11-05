@@ -342,7 +342,7 @@ export const EVENTOS: Evento[] = [
     interesses: 'Alegados: combate ao narcotráfico e rebalanceamento comercial (EUA). Para críticos, defesa de influência estratégica e de petróleo; para apoiadores, restauração da ordem democrática.',
     consequencias: 'Em 3 de janeiro de 2026, forças dos EUA capturaram Maduro e a esposa em Caracas; ele foi levado a Nova York e responde a acusações de narcotráfico, com julgamento marcado para 1º de junho de 2027. Delcy Rodríguez assumiu a presidência interina. Governos reagiram de formas opostas e o Conselho de Segurança da ONU se reuniu em 5 de janeiro.',
     relacaoEUA: 'O governo dos EUA afirmou que dirigiria a transição; a Venezuela e vários países da região classificaram a ação como violação de soberania, e outros saudaram a queda do governo.',
-    ressalva: 'Evento recente e em desenvolvimento: confirmar datas e desdobramentos antes da apresentação.',
+    ressalva: 'Evento recente, sujeito a novos desdobramentos e atualizações documentais.',
     fontes: [
       { instituicao: 'Poder360', titulo: 'Tarifas dos EUA entram em vigor em 3 dias (jul. 2025)', url: 'https://www.poder360.com.br/poder-internacional/tarifas-dos-eua-entram-em-vigor-em-3-dias-2/' },
       { instituicao: 'Poder360', titulo: 'Leia os infográficos do Poder360 sobre o ataque dos EUA à Venezuela (jan. 2026)', url: 'https://www.poder360.com.br/brasil/leia-os-infograficos-do-poder360-sobre-o-ataque-dos-eua-a-venezuela/' },

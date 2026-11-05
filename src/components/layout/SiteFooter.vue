@@ -45,7 +45,7 @@ const ALUNOS = [
           “Geopolítica do Poder”, no 4º bimestre de 2026.
         </p>
         <p>
-          Todos os dados e imagens têm fonte e licença registradas em
+          As referências cartográficas, históricas e visuais estão descritas em
           <RouterLink to="/fontes">Fontes e Metodologia</RouterLink>.
         </p>
       </section>

@@ -1,6 +1,6 @@
 /**
- * Organizações regionais. A composição foi compilada de referência geral e deve ser
- * conferida nos sítios oficiais antes da apresentação (ver "Pendências" em Fontes).
+ * composição organizada para o recorte didático deste atlas; a participação
+ * institucional pode variar ao longo do tempo.
  */
 export interface Bloco {
   id: string
